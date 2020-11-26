@@ -3,7 +3,7 @@
 This is a Clone of the Next Web Website To demonstrate the use of floats, CSS grids, Flexbox and Mediaqueries to create a responsive website
 
 ## Screenshot of our cloned website
-![The project is built using HTML and CSS with an extensive use of the grid, flex ,float, media queries and css properties. ](images/screenshot.png)
+![The project is built using HTML and CSS with an extensive use of the grid, flex ,float, media queries and css properties. ](./images/screenshot.png)
 
 ## Buit with
 
