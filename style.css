@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:  rgb(252, 252, 252);
+  background-color: rgb(252, 252, 252);
 }
 
 a {
@@ -122,27 +122,19 @@ main {
   padding: 20px;
 }
 
-.hard-fork-div h2{
- margin: 20px 0;
+.hard-fork-div h2 {
+  margin: 20px 0;
 }
 
 .hard-fork-text {
   background-image: url(./images/hard-fork.png);
   height: 500px;
-  padding: 10px;
-}
-
-.hard-fork-text {
   padding-top: 380px;
 }
 
 .fork-img {
   margin: 3px 0 10px 0;
   background-color: rgb(250, 212, 207);
-}
-
-.fork-img h4 {
-  padding: 2  0px 0 0 5px;
 }
 
 .fork-img img {
@@ -175,7 +167,7 @@ main {
 
 .latest-deals {
   width: 470px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -213,7 +205,7 @@ footer {
   padding-top: 20px;
 }
 
-.footer-2 P {
+.footer-2 p {
   padding: 2.3em;
 }
 
@@ -228,7 +220,6 @@ footer {
     margin: 0 auto;
   }
 
-
   .main-nav-1 {
     display: flex;
     background-color: #131313;
@@ -239,13 +230,17 @@ footer {
 
   .nav-1 {
     width: 450px;
-    margin-right: 5px;
     margin: 3px 0 0 10px;
   }
 
   .nav-2 {
     width: 200px;
     margin: 3px 3px 0 0;
+  }
+
+  .center {
+    width: 100%;
+    margin: 15px 20px 0 15px;
   }
 
   .main-nav-2 {
@@ -276,7 +271,7 @@ footer {
     width: 600px;
   }
 
-  .nav-logo img{
+  .nav-logo img {
     width: 110px;
     height: 80px;
   }
@@ -289,11 +284,6 @@ footer {
     display: none;
   }
 
-  .center {
-    width: 100%;
-    margin: 15px 20px 0 15px;
-  }
-
   .width {
     width: 500%;
     height: 80px;
@@ -303,12 +293,9 @@ footer {
     display: inline-grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
-  }
-
-  .article-links-div {
     margin: 0;
   }
-  
+
   .article-links-style h2 {
     font-size: 35px;
     padding: 250px 0 0 10px;
@@ -341,31 +328,31 @@ footer {
     height: 120px;
   }
 
-   .latest-news-div {
-     width: 100%;
+  .latest-news-div {
+    width: 100%;
   }
 
-   .price-container {
-     display: flex;
-   }
+  .price-container {
+    display: flex;
+  }
 
-   .price-div {
-     width: 100%;
-     margin: 20px 5px 0 5px;
-   }
+  .price-div {
+    width: 100%;
+    margin: 20px 5px 0 5px;
+  }
 
-   .hard-fork-con {
+  .hard-fork-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 3px;
-    margin: 50px 0 0 0 ;
-   }
+    margin: 50px 1px 1px 1px;
+  }
 
-   .hard-fork-div {
-     width: 98%;
-   }
+  .hard-fork-div {
+    width: 98%;
+  }
 
-   .hard-fork-text {
+  .hard-fork-text {
     padding-top: 140px;
     font-size: 13px;
     background-position: center left;
@@ -387,7 +374,7 @@ footer {
     margin: 10px 0 80px 0;
   }
 
-  .latest-deals a{
+  .latest-deals a {
     display: block;
   }
 
@@ -440,5 +427,4 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 5px;
   }
-
 }
