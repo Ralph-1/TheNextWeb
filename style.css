@@ -175,10 +175,6 @@ footer {
   text-align: center;
 }
 
-footer img {
-  width: 35px;
-}
-
 .footer-1 {
   height: 135px;
   background-color: #131313;
@@ -278,6 +274,10 @@ footer img {
   .nav-logo {
     display: block;
     width: 600px;
+  }
+
+  footer img {
+    width: 35px;
   }
 
   .nav-logo img {
