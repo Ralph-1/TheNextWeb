@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  rgb(252, 252, 252);
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.none {
+  display: none;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: block;
+  background-color: white;
+  top: 0;
+}
+
+main {
+  width: 97%;
+}
+
+.icons-1 {
+  width: 90px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.icons-1 i {
+  margin: auto 0;
+}
+
+.article-links-div {
+  margin: 60px 0 0 0;
+}
+
+.article-links {
+  background-image: url(images/emoji-pic.png);
+  background-position: center;
+  margin-top: 10px;
+}
+
+.article-links h2 {
+  padding: 105px 0 10px 0;
+}
+
+.latest-news-div {
+  margin-top: 20px;
+  width: 550px;
+}
+
+.latest-news {
+  margin: 15px 0;
+  height: 90px;
+}
+
+.latest-news img {
+  width: 80px;
+  height: 80px;
+}
+
+.funding-margin {
+  margin: 12px 0;
+}
+
+.price-div {
+  margin-bottom: 20px;
+  height: 300px;
+  position: relative;
+}
+
+.price-img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.current {
+  height: 50px;
+  background-color: #f42;
+  padding: 20px 0 0 100px;
+  font-size: 22px;
+}
+
+.current-1 {
+  background-color: rgb(253, 191, 180);
+  font-size: 16px;
+  padding-left: 100px;
+}
+
+.price-details {
+  height: 100px;
+  background-color: rgb(250, 212, 206);
+  padding: 20px;
+}
+
+.hard-fork-div h2{
+ margin: 20px 0;
+}
+
+.hard-fork-text {
+  background-image: url(./images/hard-fork.png);
+  height: 500px;
+  padding: 10px;
+}
+
+.hard-fork-text {
+  padding-top: 380px;
+}
+
+.fork-img {
+  margin: 3px 0 10px 0;
+  background-color: rgb(250, 212, 207);
+}
+
+.fork-img h4 {
+  padding: 2  0px 0 0 5px;
+}
+
+.fork-img img {
+  height: 90px;
+  width: 90px;
+}
+
+.hard-fork-container ul {
+  padding: 5px 15px;
+  line-height: 23px;
+}
+
+.hard-fork-container li {
+  border-bottom: 1px solid #eee;
+  padding: 3px;
+}
+
+.deals-head {
+  margin: 10px 0 20px 0;
+}
+
+.latest-deals-div {
+  margin: 21px 0 0 0;
+}
+
+.latest-deals img {
+  width: 91px;
+  height: 91px;
+}
+
+.latest-deals {
+  width: 470px;
+  margin-bottom:10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-1 {
+  height: 135px;
+  background-color: #131313;
+}
+
+.footer-1 a {
+  position: relative;
+  top: 50px;
+}
+
+.footer-icons {
+  width: 400px;
+  margin-bottom: 4px;
+}
+
+.footer-icons i {
+  font-size: 25px;
+}
+
+.footer-2 {
+  height: 140px;
+  background-color: #000;
+}
+
+.footer-links {
+  width: 350px;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.footer-2 P {
+  padding: 2.3em;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .all {
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+
+
+  .main-nav-1 {
+    display: flex;
+    background-color: #131313;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .nav-1 {
+    width: 450px;
+    margin-right: 5px;
+    margin: 3px 0 0 10px;
+  }
+
+  .nav-2 {
+    width: 200px;
+    margin: 3px 3px 0 0;
+  }
+
+  .main-nav-2 {
+    width: 100%;
+  }
+
+  .main-nav-1 a {
+    color: #bbb;
+  }
+
+  .main-nav-2 .center {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 450px;
+    font-size: 14.5px;
+  }
+
+  .nav-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+  }
+
+  .nav-logo {
+    display: block;
+    width: 600px;
+  }
+
+  .nav-logo img{
+    width: 110px;
+    height: 80px;
+  }
+
+  .nav-img {
+    display: none;
+  }
+
+  .icons-1 .fa-bars {
+    display: none;
+  }
+
+  .center {
+    width: 100%;
+    margin: 15px 20px 0 15px;
+  }
+
+  .width {
+    width: 500%;
+    height: 80px;
+  }
+
+  .article-links-div {
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+  }
+
+  .article-links-div {
+    margin: 0;
+  }
+  
+  .article-links-style h2 {
+    font-size: 35px;
+    padding: 250px 0 0 10px;
+  }
+
+  .cow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .latest-news-div h2 {
+    font-size: 30px;
+    margin: 60px 0 10px 5px;
+  }
+
+  .latest-news {
+    display: block;
+    height: 210px;
+    width: 98%;
+  }
+
+  .latest-news p {
+    margin-top: 20px;
+  }
+
+  .latest-news img {
+    width: 100%;
+    height: 120px;
+  }
+
+   .latest-news-div {
+     width: 100%;
+  }
+
+   .price-container {
+     display: flex;
+   }
+
+   .price-div {
+     width: 100%;
+     margin: 20px 5px 0 5px;
+   }
+
+   .hard-fork-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3px;
+    margin: 50px 0 0 0 ;
+   }
+
+   .hard-fork-div {
+     width: 98%;
+   }
+
+   .hard-fork-text {
+    padding-top: 140px;
+    font-size: 13px;
+    background-position: center left;
+    height: 250px;
+  }
+
+  .fork-img h4 {
+    padding: 13px;
+  }
+
+  .deals-head {
+    margin: 50px 0 30px 0;
+    width: 95%;
+  }
+
+  .latest-deals-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px 0 80px 0;
+  }
+
+  .latest-deals a{
+    display: block;
+  }
+
+  .latest-deals {
+    width: 97%;
+    margin-top: 20px;
+  }
+
+  .latest-deals img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .footer-links {
+    padding: 20px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-logo {
+    display: none;
+  }
+
+  .lastest-news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .hard-fork-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+  }
+
+  .funding-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin: auto 0;
+  }
+
+  .deals-head {
+    width: 100%;
+  }
+
+  .latest-deals-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+  }
+
+}
