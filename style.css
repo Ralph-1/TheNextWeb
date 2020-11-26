@@ -175,6 +175,10 @@ footer {
   text-align: center;
 }
 
+footer img {
+  width: 35px;
+}
+
 .footer-1 {
   height: 135px;
   background-color: #131313;
@@ -205,7 +209,7 @@ footer {
   padding-top: 20px;
 }
 
-.footer-links .white{
+.footer-links .white {
   float: left;
   margin: 5px;
 }
@@ -401,6 +405,12 @@ footer {
 @media only screen and (min-width: 1024px) {
   .nav-logo {
     display: none;
+  }
+
+  .article-links img {
+    display: block;
+    width: 300px;
+    padding: 20px 1px 1px 20px;
   }
 
   .lastest-news-grid {
