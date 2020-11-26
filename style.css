@@ -200,9 +200,14 @@ footer {
 }
 
 .footer-links {
-  width: 350px;
+  width: 360px;
   font-size: 12px;
   padding-top: 20px;
+}
+
+.footer-links .white{
+  float: left;
+  margin: 5px;
 }
 
 .footer-2 p {
